@@ -7,8 +7,9 @@
 
 ## 模組目錄
 
+**詳細說明請點目錄連結**
+
 1. [feturemap_module](feturemap_module/README.md)
-2. [grad_cam](#grad_cam)
 
 ---
 
