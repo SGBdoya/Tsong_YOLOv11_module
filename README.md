@@ -1,4 +1,4 @@
-# YOLOv11 Module
+# Tsong YOLOv11 Module
 
 **嵌入式YOLOv11模組**
 分析 YOLOv11 為目的製作的模組，包含特徵圖處理和視覺化工具。
@@ -7,7 +7,7 @@
 
 ## 模組目錄
 
-1. [feturemap_module](#feturemap_module/README.md)
+1. [feturemap_module](feturemap_module/README.md)
 2. [grad_cam](#grad_cam)
 
 ---
@@ -15,6 +15,7 @@
 ## 簡介
 
 YOLOv11 網路的特徵圖處理和視覺化分析功能。
+詳細使用方法點選模組目錄超連結
 
 ---
 
@@ -39,6 +40,6 @@ ultralytics/
 ...
 ├── feturemap_module/
 │   ├── hooks_manager_predict.py # 預測用特徵圖提取
-│   ├── hooks_manager.py # 訓練用特徵圖提取
+│   ├── hooks_manager_train.py # 訓練用特徵圖提取
 └── __init__.py
 ```

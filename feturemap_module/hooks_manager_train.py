@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 
 
-class HooksManager:
+class HooksManager_train:
     def __init__(self, model, save_dir, interval_epochs=50):
         self.model = model
         self.save_dir = save_dir
